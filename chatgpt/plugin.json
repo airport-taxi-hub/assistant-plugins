@@ -1,0 +1,52 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "app-69c29e815338819194c3a90700f46766",
+  "version": "1.0.0",
+  "description": "Live fixed prices for private airport transfers, quoted in the chat and booked on airporttaxihub.com.",
+  "author": {
+    "name": "Airport Taxi Hub LLC",
+    "url": "https://airporttaxihub.com"
+  },
+  "homepage": "https://airporttaxihub.com",
+  "keywords": [
+    "airport transfer",
+    "airport taxi",
+    "travel",
+    "transfers"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Airport Taxi Hub",
+        "shortDescription": "Fixed-price airport transfers",
+        "longDescription": "Live, fixed prices for private airport transfers in the UK and 90+ markets: airport to hotel, address or city centre, one-way or return. Every price includes 60 minutes' free waiting after your flight lands, express pick-up at the airport's designated point, no meter and no surge, and free cancellation until 24 hours before pick-up. Compare vehicles from saloon to 16-seater, then finish the booking on airporttaxihub.com, where the flight number, exact address and any extras are added. Prices in chat are the same as on the website.",
+        "developerName": "Airport Taxi Hub LLC",
+        "category": "Travel",
+        "capabilities": [
+          "Live fixed prices for airport transfers",
+          "Vehicles that fit the party and luggage",
+          "Return journeys priced together",
+          "Booking completed on airporttaxihub.com"
+        ],
+        "websiteURL": "https://airporttaxihub.com",
+        "supportURL": "https://airporttaxihub.com/help#contact-us",
+        "privacyPolicyURL": "https://airporttaxihub.com/privacy-policy",
+        "termsOfServiceURL": "https://airporttaxihub.com/terms-of-service",
+        "defaultPrompt": [
+          "Taxi from Edinburgh Airport to The Balmoral hotel next Saturday at 9:30am, 2 of us with 2 suitcases. How much?",
+          "Return transfer from Heathrow to The Savoy, landing Friday at 08:00 and back Monday at 18:00, 2 people, 2 suitcases.",
+          "Cheapest way for 8 of us with 8 bags from Stansted Airport to Cambridge next month at noon."
+        ],
+        "brandColor": "#1F2A24",
+        "brandColorDark": "#FFD731",
+        "composerIcon": "./assets/icon.png",
+        "logo": "./assets/logo.png",
+        "screenshots": [
+          "./assets/screenshot-1.png",
+          "./assets/screenshot-2.png",
+          "./assets/screenshot-3.png"
+        ]
+      }
+    }
+  }
+}

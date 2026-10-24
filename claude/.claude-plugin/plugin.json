@@ -1,0 +1,20 @@
+{
+  "name": "airport-taxi-hub",
+  "displayName": "Airport Taxi Hub",
+  "version": "1.0.0",
+  "description": "Live fixed prices for private airport and hotel transfers, quoted in the conversation and booked on airporttaxihub.com.",
+  "author": {
+    "name": "Airport Taxi Hub LLC",
+    "url": "https://airporttaxihub.com"
+  },
+  "homepage": "https://airporttaxihub.com",
+  "repository": "https://github.com/airport-taxi-hub/assistant-plugins",
+  "license": "MIT",
+  "keywords": [
+    "airport transfer",
+    "airport taxi",
+    "hotel transfer",
+    "travel"
+  ],
+  "privacyPolicyUrl": "https://airporttaxihub.com/privacy-policy"
+}

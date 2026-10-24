@@ -1,0 +1,15 @@
+{
+  "name": "airport-taxi-hub",
+  "owner": {
+    "name": "Airport Taxi Hub LLC",
+    "url": "https://airporttaxihub.com"
+  },
+  "description": "Airport Taxi Hub plugins: fixed-price airport transfers, quoted in the assistant and booked on airporttaxihub.com.",
+  "plugins": [
+    {
+      "name": "airport-taxi-hub",
+      "source": "./claude",
+      "description": "Live fixed prices for private airport and hotel transfers, booked on airporttaxihub.com."
+    }
+  ]
+}
