@@ -15,8 +15,8 @@ A quote needs five details, as the traveller has stated them in this conversatio
 
 1. Pickup place (an airport, hotel, address or city area).
 2. Drop-off place.
-3. Pickup date and local time. For an airport pickup this is the flight's landing time; every price includes 60 minutes of free
-   waiting after landing.
+3. Pickup date and local time. For an airport pickup this is the flight's landing time; the results say how much free waiting
+   after landing is included.
 4. Number of passengers.
 5. Number of suitcases.
 
@@ -36,4 +36,4 @@ conversations are not this trip's details.
 ## Booking
 
 Each priced vehicle has a Book link to airporttaxihub.com with the journey already filled in. The traveller finishes there,
-adding the flight number, the exact address, names and payment. Free cancellation applies up to 24 hours before pickup.
+adding the flight number, the exact address, names and payment. State the cancellation terms the results give.

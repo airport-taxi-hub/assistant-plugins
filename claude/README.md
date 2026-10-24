@@ -21,11 +21,15 @@ In Claude, add it from the plugin directory. In Claude Code:
 
 ## What is sent, and where
 
-When Claude asks for a quote, it sends the pickup and drop-off place names (or the place ids from an earlier result), the pickup
-date and time, the number of passengers and suitcases, an optional return date and time, and the language of the conversation to
-`mcp.airporttaxihub.com`. Nothing else: no names, email addresses, phone numbers, flight numbers or payment details are asked for
-or sent. The server looks up places and routes with Google Maps and prices the journey; a short-lived quote record (30 minutes) is
-kept so the Book link can open the same prices. The plugin runs no local code and contacts no other service.
+When Claude asks for a quote, it sends the pickup and drop-off places as typed (a place, hotel or address, or a place id from an
+earlier result), the pickup date and time, the number of passengers and suitcases, an optional return date and time, and the
+language of the conversation to `mcp.airporttaxihub.com`. No names, email addresses, phone numbers, flight numbers or payment
+details are asked for or sent.
+
+On our side, the server looks up places and routes with Google Maps and prices the journey. It keeps a quote record for 30 minutes
+so the Book link opens the same prices, and it records each quote in our pricing analytics (the requesting app, the prices offered
+and the pickup and drop-off coordinates, with no personal details), which are kept for three months. The plugin runs no local
+code, and Claude contacts no service other than `mcp.airporttaxihub.com` through it.
 
 ## Example prompts
 
